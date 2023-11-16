@@ -69,7 +69,7 @@ def dla():
         #We'll try 10000 steps.
         traj = rw2d(x0,y0,1e4)
         
-        #This is a provided functions that finds the correct coordinate 
+        #This is a provided function that finds the correct coordinate 
         # where the particle sticks to the growing cluster.
         # Takes 2D arrays of dimensions Nstep x 2 and ClusterSize x 2 as input.
         #No need to worry about how it works.
